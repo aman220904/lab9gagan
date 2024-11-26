@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="about"
+        android:icon="@drawable/baseline_chalet_24"
+        android:id="@+id/about"
+        app:showAsAction="never" />
+
+    <item
+        android:title="camera"
+        android:icon="@drawable/baseline_camera_24"
+        android:id="@+id/camera"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="delete"
+        android:icon="@drawable/baseline_auto_delete_24"
+        android:id="@+id/delete"
+        app:showAsAction="ifRoom" />
+
+</menu>
